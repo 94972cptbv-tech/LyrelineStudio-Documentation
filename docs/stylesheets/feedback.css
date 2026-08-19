@@ -1,0 +1,113 @@
+.studio-feedback {
+  --feedback-accent: #2457a6;
+  --feedback-border: #c8ced8;
+  --feedback-surface: #f7f8fa;
+  max-width: 54rem;
+}
+
+.feedback-section,
+.privacy-reminder {
+  margin: 1.25rem 0;
+  padding: 1rem;
+  border: 1px solid var(--feedback-border);
+  border-radius: 0.5rem;
+  background: var(--feedback-surface);
+}
+
+.feedback-section h2,
+.privacy-reminder h2 {
+  margin-top: 0;
+  font-size: 1.15rem;
+}
+
+.feedback-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 0.9rem;
+}
+
+.feedback-field {
+  margin-bottom: 0.9rem;
+}
+
+.feedback-field label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+.feedback-field input,
+.feedback-field select,
+.feedback-field textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.55rem;
+  border: 1px solid #939baa;
+  border-radius: 0.3rem;
+  background: #fff;
+  color: #182033;
+  font: inherit;
+}
+
+.feedback-field textarea {
+  resize: vertical;
+}
+
+.feedback-field input:focus-visible,
+.feedback-field select:focus-visible,
+.feedback-field textarea:focus-visible,
+.feedback-actions button:focus-visible,
+.feedback-email-button:focus-visible {
+  outline: 3px solid #78b9ff;
+  outline-offset: 2px;
+}
+
+.optional {
+  font-size: 0.85em;
+  font-weight: normal;
+  color: #5b6371;
+}
+
+.privacy-reminder {
+  border-left: 0.3rem solid #875ec8;
+}
+
+.feedback-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.feedback-actions button,
+.feedback-email-button {
+  display: inline-block;
+  padding: 0.6rem 0.9rem;
+  border: 1px solid var(--feedback-accent);
+  border-radius: 0.35rem;
+  font: inherit;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.feedback-actions button {
+  background: var(--feedback-accent);
+  color: #fff;
+}
+
+.feedback-email-button {
+  background: #fff;
+  color: var(--feedback-accent);
+}
+
+.copy-status {
+  min-height: 1.5em;
+  font-weight: 600;
+  color: #23632b;
+}
+
+.copy-status.is-error {
+  color: #9b2d20;
+}

@@ -1,0 +1,33 @@
+site_name: Lyreline Studio Documentation
+site_description: User guide, support, privacy, and publishing documentation for Lyreline Studio.
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: mkdocs
+
+nav:
+  - Home: index.md
+  - Quick Start: quick-start.md
+  - Using with Lyreline: using-with-lyreline.md
+  - Narration: narration.md
+  - Publishing: publishing.md
+  - Troubleshooting: troubleshooting.md
+  - Privacy Policy: privacy.md
+  - Support: support.md
+  - Feedback: feedback.md
+  - Release Notes: release-notes.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/feedback.css
+
+extra_javascript:
+  - javascripts/feedback.js
+
+strict: true
+
+site_url: https://94972cptbv-tech.github.io/LyrelineStudio-Documentation/
