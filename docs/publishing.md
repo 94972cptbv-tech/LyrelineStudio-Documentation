@@ -14,6 +14,20 @@ PDF publication produces a paginated document with selectable text, navigation,
 and supported accessibility descriptions. Page breaks and image fitting may
 differ from the HTML presentation.
 
+## Numbered callouts in visual output
+
+Studio renders numbered-callout markers and their optional labels in supported
+HTML and PDF visual output. Labels remain part of the authored presentation so
+readers can understand which control or region each callout identifies.
+
+The relationship between a callout and its instruction remains authored project
+information and survives supported exchange with Lyreline. Published HTML and
+PDF files present the callout visually; they do not currently turn that
+relationship into an interactive link between the callout and an instruction.
+
+Create and edit callouts in Lyreline. See
+[Numbered Callouts in the Lyreline documentation](https://94972cptbv-tech.github.io/Lyreline-Documentation/numbered-callouts/).
+
 ## Video
 
 Video publication combines section timing, visuals, narration, motion, and

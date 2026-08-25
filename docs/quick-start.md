@@ -33,3 +33,15 @@ Apple Speech, or OpenAI Speech, and generate or attach narration as needed. See
 
 Use the publication area to preview and publish HTML, PDF, or video. Save each
 output to a location you control. See [Publishing](publishing.md).
+
+## 7. Optionally return the authored procedure to Lyreline
+
+When you want to continue the procedure in Lyreline, export or hand off the
+Studio-authored project and open it there. Studio-authored sections return as
+editable Procedure steps, with supported images, presentation edits, numbered
+callouts, optional labels, and instruction links preserved.
+
+Returning to Lyreline is optional. Studio remains useful for project management,
+narration, review, and publication even when no return handoff is needed. See
+[Using Lyreline Studio with Lyreline](using-with-lyreline.md) for the complete
+round-trip workflow.
