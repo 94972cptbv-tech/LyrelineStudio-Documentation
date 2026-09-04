@@ -47,9 +47,48 @@ For an existing section, Studio preserves its narration draft and generated
 audio while presenting the updated Lyreline source for review. This prevents a
 source edit from silently overwriting publication work.
 
-Review the updated source, reconcile the narration where necessary, and mark the
-review complete. Studio can then identify publication outputs that need to be
-updated.
+### Review narration changes without losing Studio work
+
+When a Lyreline source change may affect spoken narration, use **Review
+Narration Update…**. Studio opens a comparison showing:
+
+- **Last Reviewed Lyreline Source** — the source associated with the last
+  completed review.
+- **Updated Lyreline Source** — the current authored source returned from
+  Lyreline.
+- **Current Studio Narration** — the narration text already authored in Studio.
+- **Proposed Narration** — an editable working copy that does not change the
+  project until you apply it.
+
+The proposal is intentionally editable. You can start from the current Studio
+narration or reset to the updated Lyreline source, then combine the two as
+needed. This is useful when an upstream change is small, when the existing
+Studio narration is already polished for spoken delivery, or when you notice a
+typo or want to improve the wording during review.
+
+Choose **Apply Narration Update** only when the proposed text is ready. Applying
+the proposal changes the Studio narration text; it does **not** regenerate audio
+and it does **not** mark the Lyreline source reviewed. Existing generated audio
+is preserved and may show **Needs Regeneration** when it no longer matches the
+revised narration text.
+
+Regenerating narration remains a separate explicit action. This lets you review
+and edit the text first without immediately replacing generated audio.
+
+### Marking a source update reviewed
+
+Choose **Mark Reviewed** when you have finished reviewing that section's
+Lyreline source and are satisfied with the Studio narration. **Mark Reviewed
+does not rewrite narration, regenerate audio, or replace authored content.** It
+only acknowledges that the section-level source review is complete.
+
+After all required section reviews are complete, use **Mark Updates Reviewed**
+to acknowledge the remaining project-level continuation update.
+
+For narration based on imported audio, Studio does not offer the editable
+narration-reconciliation proposal because imported recordings cannot be
+regenerated from revised text. Review the source change and manage the imported
+recording separately if the spoken content also needs to change.
 
 ## Capture history remains in Lyreline
 

@@ -20,8 +20,16 @@ instructional content there.
 ## 4. Return to Lyreline Studio
 
 Use Lyreline's **Narrate & Publish** action to return the authored content to the
-matching Studio project. Review any source updates before changing narration or
-publishing again.
+matching Studio project.
+
+When Studio reports a source update, review it before publishing again. If the
+change affects narration, choose **Review Narration Update…** to compare the old
+and new Lyreline source with the current Studio narration. You can edit or blend
+the proposed wording before choosing **Apply Narration Update**.
+
+Applying revised narration does not regenerate audio or mark the source
+reviewed. Use **Mark Reviewed** only after you are satisfied with the section,
+and regenerate narration separately when Studio shows **Needs Regeneration**.
 
 ## 5. Prepare narration
 
