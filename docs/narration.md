@@ -4,6 +4,36 @@ Each narrated section keeps its Lyreline source content separate from its Studio
 narration draft. You can adapt the draft for spoken delivery without changing
 the canonical procedure in Lyreline.
 
+## Synchronize a visual with narration
+
+A **Visual Cue** associates a narration phrase with a visual in the same
+section.
+
+1. Select the narration phrase associated with the visual.
+2. Choose **Attach Visual Cue**.
+3. Choose the target visual.
+4. Studio estimates when the visual should appear.
+5. Use **Adjust Timing** to move the visual slightly earlier or later than
+   Studio's estimate when needed.
+6. Preview the section and refine the timing.
+
+Use **Reset to Estimate** to return a cue to Studio's estimated timing. Cues stay
+attached to their target visual when visuals are reordered.
+
+## Add a natural narration pause
+
+A narration pause adds silence at an authored location without changing the
+narration audio.
+
+1. Place the caret where the pause belongs.
+2. Choose **Insert Pause**.
+3. Select or set the duration.
+4. Studio finds a natural break in the narration where possible.
+5. Preview the result.
+
+The current visual remains on screen during the pause. Authored pauses carry
+through Section Preview, Final Video Preview, and exported video.
+
 ## Narration choices
 
 ### Imported audio

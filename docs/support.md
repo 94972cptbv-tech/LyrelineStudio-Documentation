@@ -5,10 +5,12 @@ Use these guides to get started and resolve common issues:
 - [Quick Start](quick-start.md)
 - [Using with Lyreline](using-with-lyreline.md)
 - [Narration](narration.md)
+- [Section Editor](section-editor.md)
 - [Publishing](publishing.md)
 - [Troubleshooting](troubleshooting.md)
 - [Privacy Policy](privacy.md)
 - [Feedback](feedback.md)
+- [Testing Lyreline Studio 1.4](testing-1.4.md)
 
 ## Before requesting help
 

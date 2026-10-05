@@ -34,8 +34,10 @@ Supported round trips preserve:
 
 - section order and instructional text;
 - images and presentation edits;
-- numbered callouts and optional labels; and
-- the relationship between a numbered callout and its instruction.
+- numbered callouts and optional labels;
+- the relationship between a numbered callout and its instruction;
+- section-level Callout Sequence membership; and
+- authored Highlight color and transparency in supported exchange formats.
 
 For callout creation and editing instructions, see
 [Numbered Callouts in the Lyreline documentation](https://94972cptbv-tech.github.io/Lyreline-Documentation/numbered-callouts/).

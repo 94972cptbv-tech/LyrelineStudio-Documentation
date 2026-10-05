@@ -11,14 +11,14 @@ contents in the email URL.
     <div class="feedback-grid">
       <div class="feedback-field"><label for="feedback-name">Name or initials <span class="optional">Optional</span></label><input id="feedback-name" name="name" type="text" autocomplete="name"></div>
       <div class="feedback-field"><label for="feedback-date">Date</label><input id="feedback-date" name="date" type="date"></div>
-      <div class="feedback-field"><label for="feedback-version">Lyreline Studio version/build</label><input id="feedback-version" name="version" type="text" value="1.0 / Build 2"></div>
+      <div class="feedback-field"><label for="feedback-version">Lyreline Studio version/build</label><input id="feedback-version" name="version" type="text" value="1.4 / Build 9"></div>
       <div class="feedback-field"><label for="feedback-macos">macOS version</label><input id="feedback-macos" name="macOS" type="text"></div>
     </div>
   </section>
 
   <section class="feedback-section" aria-labelledby="request-heading">
     <h2 id="request-heading">Question or issue</h2>
-    <div class="feedback-field"><label for="feedback-area">Area</label><select id="feedback-area" name="area"><option value="">Choose…</option><option>Project management</option><option>Lyreline handoff</option><option>Narration</option><option>HTML publishing</option><option>PDF publishing</option><option>Video publishing</option><option>Source recording</option><option>Import or export</option><option>Other</option></select></div>
+    <div class="feedback-field"><label for="feedback-area">Area</label><select id="feedback-area" name="area"><option value="">Choose…</option><option>Project management</option><option>Lyreline handoff</option><option>Narration</option><option>Section Editor</option><option>Visual timing or preview</option><option>Callouts or Highlights</option><option>HTML publishing</option><option>PDF publishing</option><option>Video publishing</option><option>Source recording</option><option>Import or export</option><option>Other</option></select></div>
     <div class="feedback-field"><label for="feedback-goal">What were you trying to do?</label><textarea id="feedback-goal" name="goal" rows="3"></textarea></div>
     <div class="feedback-field"><label for="feedback-steps">What steps did you take?</label><textarea id="feedback-steps" name="steps" rows="4"></textarea></div>
     <div class="feedback-field"><label for="feedback-expected">What did you expect?</label><textarea id="feedback-expected" name="expected" rows="3"></textarea></div>
@@ -38,7 +38,7 @@ contents in the email URL.
 
   <div class="feedback-actions">
     <button id="copy-feedback" type="button">Copy Feedback</button>
-    <a class="feedback-email-button" href="mailto:lyreline.support@icloud.com?subject=Lyreline%20Studio%201.0%20Feedback">Open Email</a>
+    <a class="feedback-email-button" href="mailto:lyreline.support@icloud.com?subject=Lyreline%20Studio%201.4%20Feedback">Open Email</a>
   </div>
   <p id="feedback-copy-status" class="copy-status" role="status" aria-live="polite"></p>
 </form>

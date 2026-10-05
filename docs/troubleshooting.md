@@ -24,6 +24,30 @@ If a project cannot locate generated audio, avoid publishing until the affected
 section has valid narration. Regenerate the narration or attach a replacement
 audio file, then save the project.
 
+## A visual appears at the wrong narration point
+
+Review the visual's Visual Cue timing in the Section Editor. Use **Adjust
+Timing** to move the visual earlier or later, or **Reset to Estimate** to return
+to Studio's estimate. Preview the section again.
+
+## A narration pause cannot be placed where expected
+
+Choose a natural break in the narration when possible. If the section supports
+an exact-time placement for the intended result, use that option and preview the
+pause before publishing.
+
+## Callout numbering seems unexpected
+
+Select the numbered callout and verify whether it uses **This visual only** or a
+named Callout Sequence such as **Sequence 1**. Sequence numbering follows the
+current visual order, so also review the order in **Visual Timing / Details**.
+
+## A Highlight looks too strong
+
+Select the Highlight and increase **Transparency**. Higher transparency lets
+more of the original visual show through. Use **Reset to Default** to restore
+the original Lyreline yellow appearance.
+
 ## A Studio package is invalid or corrupt
 
 Open an unmodified `.lyrelinestudio` package. Studio validates the manifest,

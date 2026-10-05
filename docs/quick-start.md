@@ -37,12 +37,19 @@ Open **Narrate & Publish**, review the narration draft, choose imported audio,
 Apple Speech, or OpenAI Speech, and generate or attach narration as needed. See
 [Narration](narration.md) for provider details.
 
-## 6. Publish
+## 6. Refine the section
+
+Open the Section Editor to select and reorder visuals, refine visual timing,
+attach narration cues, add pauses, continue numbered callouts across visuals,
+and adjust highlight appearance. Use Section Preview to review how narration,
+visuals, and annotations work together. See [Section Editor](section-editor.md).
+
+## 7. Publish
 
 Use the publication area to preview and publish HTML, PDF, or video. Save each
 output to a location you control. See [Publishing](publishing.md).
 
-## 7. Optionally return the authored procedure to Lyreline
+## 8. Optionally return the authored procedure to Lyreline
 
 When you want to continue the procedure in Lyreline, export or hand off the
 Studio-authored project and open it there. Studio-authored sections return as

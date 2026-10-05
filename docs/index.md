@@ -1,11 +1,16 @@
 # Lyreline Studio
 
-**Capture and author in Lyreline. Narrate, organize, and publish in Lyreline Studio.**
+**Long-form knowledge. Purpose-built delivery.**
 
-Lyreline Studio is the composition, publication, and narration companion for
-authored Lyreline content. It keeps long-lived Studio projects organized while
-you refine the authored presentation, prepare narration, review source updates,
-and publish customer-controlled HTML, PDF, and video files.
+Turn long-form knowledge into focused, polished instructional media. Bring
+recorded walkthroughs, demonstrations, and training content into Lyreline
+Studio, then curate the material into a focused presentation with sections,
+visual timing, narration, annotations, previews, and export.
+
+Lyreline Studio 1.4 gives authors finer control over how narration, visuals, and
+annotations work together. Studio helps you synchronize visuals with narration,
+add natural pauses, continue numbered callouts across visuals, refine visual
+order, and customize highlights while keeping the author in control.
 
 Studio is useful on its own for managing, narrating, and publishing existing
 Studio projects. It is not required for capturing, editing, or publishing a
@@ -15,6 +20,8 @@ normal procedure in Lyreline.
 
 - Studio project creation, organization, archiving, and recovery
 - narration drafting and generated speech
+- narration cues and authored pauses for precise visual storytelling
+- visual sequencing, section-level callout flows, and configurable highlights
 - Apple Speech and optional OpenAI Speech
 - review of authored updates returned from Lyreline
 - HTML, PDF, and video publication
@@ -36,4 +43,8 @@ For capture and full procedure authoring, use Lyreline. Studio does not include
 Lyreline's capture-session or procedure-editing workflow inside the Studio app.
 
 Start with the [Quick Start](quick-start.md), or learn more about
-[using the two apps together](using-with-lyreline.md).
+[using the two apps together](using-with-lyreline.md). For the new authoring
+controls in version 1.4, see the [Section Editor](section-editor.md) and
+[Narration](narration.md) guides.
+
+Lyreline Studio is patent pending.

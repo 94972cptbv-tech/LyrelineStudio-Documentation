@@ -20,6 +20,10 @@ Studio renders numbered-callout markers and their optional labels in supported
 HTML and PDF visual output. Labels remain part of the authored presentation so
 readers can understand which control or region each callout identifies.
 
+Callout Sequences and custom Highlight color and transparency are authored
+appearance choices. They carry through supported section and final previews,
+video export, HTML, PDF, and authored-document output.
+
 The relationship between a callout and its instruction remains authored project
 information and survives supported exchange with Lyreline. Published HTML and
 PDF files present the callout visually; they do not currently turn that
@@ -33,6 +37,10 @@ Create and edit callouts in Lyreline. See
 Video publication combines section timing, visuals, narration, motion, and
 configured gaps into an MP4 file. Preview the final video and confirm source
 media is available before exporting.
+
+Visual Cues, authored narration pauses, reordered visuals, section Callout
+Sequences, and custom Highlight appearance are reflected in Final Video Preview
+and exported video.
 
 ## Publication status
 
