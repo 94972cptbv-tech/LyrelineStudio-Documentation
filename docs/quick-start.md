@@ -34,7 +34,7 @@ and regenerate narration separately when Studio shows **Needs Regeneration**.
 ## 5. Prepare narration
 
 Open **Narrate & Publish**, review the narration draft, choose imported audio,
-Apple Speech, or OpenAI Speech, and generate or attach narration as needed. See
+Apple Speech, or OpenAI narration, and generate or attach narration as needed. See
 [Narration](narration.md) for provider details.
 
 ## 6. Refine the section

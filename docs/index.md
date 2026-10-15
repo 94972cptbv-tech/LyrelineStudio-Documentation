@@ -7,10 +7,10 @@ recorded walkthroughs, demonstrations, and training content into Lyreline
 Studio, then curate the material into a focused presentation with sections,
 visual timing, narration, annotations, previews, and export.
 
-Lyreline Studio 1.4 gives authors finer control over how narration, visuals, and
-annotations work together. Studio helps you synchronize visuals with narration,
-add natural pauses, continue numbered callouts across visuals, refine visual
-order, and customize highlights while keeping the author in control.
+Lyreline Studio 1.5 now uses OpenAI's latest Realtime voice model for more
+natural narration while preserving the author-controlled workflow. Studio also
+helps you synchronize visuals with narration, add natural pauses, continue
+numbered callouts across visuals, refine visual order, and customize highlights.
 
 Studio is useful on its own for managing, narrating, and publishing existing
 Studio projects. It is not required for capturing, editing, or publishing a
@@ -22,7 +22,7 @@ normal procedure in Lyreline.
 - narration drafting and generated speech
 - narration cues and authored pauses for precise visual storytelling
 - visual sequencing, section-level callout flows, and configurable highlights
-- Apple Speech and optional OpenAI Speech
+- Apple Speech and optional OpenAI narration
 - review of authored updates returned from Lyreline
 - HTML, PDF, and video publication
 - publication status that helps identify current and out-of-date outputs

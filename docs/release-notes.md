@@ -1,5 +1,19 @@
 # Release Notes
 
+## Lyreline Studio 1.5
+
+**OpenAI narration gets a major upgrade.**
+
+Studio now uses OpenAI's Realtime voice model for more natural pacing and
+expression while preserving the narration workflow authors already use.
+
+- OpenAI narration now uses `gpt-realtime-2.1-mini`.
+- `marin` remains available as the default and recommended voice.
+- Existing narration, Visual Cues, pauses, previews, and exports remain
+  compatible.
+- Existing projects require no narration regeneration.
+- Apple Speech remains unchanged.
+
 ## Lyreline Studio 1.4
 
 **More precise storytelling in Lyreline Studio.**

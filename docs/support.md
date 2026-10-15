@@ -10,7 +10,7 @@ Use these guides to get started and resolve common issues:
 - [Troubleshooting](troubleshooting.md)
 - [Privacy Policy](privacy.md)
 - [Feedback](feedback.md)
-- [Testing Lyreline Studio 1.4](testing-1.4.md)
+- [Testing Lyreline Studio 1.5](testing-1.5.md)
 
 ## Before requesting help
 

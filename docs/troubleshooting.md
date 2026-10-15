@@ -14,9 +14,17 @@ stored in macOS Keychain. You can test the connection before generating speech.
 ## Narration generation fails
 
 Confirm the selected voice is available and the narration text is not empty. For
-OpenAI Speech, confirm the Mac is online, the saved API key is valid, and the
-OpenAI account can use the selected speech model. Retry after a temporary rate
-limit or service interruption.
+OpenAI narration, confirm the Mac is online and the saved API key is valid. If
+Studio reports an unsupported voice, select one of the voices offered in the
+narration settings; `marin` is the default and recommended choice.
+
+Connection failures, rate limits, and temporary OpenAI service interruptions may
+prevent generation. Wait briefly and retry. If generation finishes without
+usable audio, confirm the narration text is not empty and retry the generation.
+
+A failed generation does not replace the section's existing good narration.
+After correcting the key, voice, connection, or service issue, generate again
+and preview the completed result before publishing.
 
 ## Generated narration is missing
 

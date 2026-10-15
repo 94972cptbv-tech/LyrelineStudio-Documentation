@@ -11,7 +11,7 @@ contents in the email URL.
     <div class="feedback-grid">
       <div class="feedback-field"><label for="feedback-name">Name or initials <span class="optional">Optional</span></label><input id="feedback-name" name="name" type="text" autocomplete="name"></div>
       <div class="feedback-field"><label for="feedback-date">Date</label><input id="feedback-date" name="date" type="date"></div>
-      <div class="feedback-field"><label for="feedback-version">Lyreline Studio version/build</label><input id="feedback-version" name="version" type="text" value="1.4 / Build 9"></div>
+      <div class="feedback-field"><label for="feedback-version">Lyreline Studio version/build</label><input id="feedback-version" name="version" type="text" value="1.5 / Build 10"></div>
       <div class="feedback-field"><label for="feedback-macos">macOS version</label><input id="feedback-macos" name="macOS" type="text"></div>
     </div>
   </section>
@@ -38,7 +38,7 @@ contents in the email URL.
 
   <div class="feedback-actions">
     <button id="copy-feedback" type="button">Copy Feedback</button>
-    <a class="feedback-email-button" href="mailto:lyreline.support@icloud.com?subject=Lyreline%20Studio%201.4%20Feedback">Open Email</a>
+    <a class="feedback-email-button" href="mailto:lyreline.support@icloud.com?subject=Lyreline%20Studio%201.5%20Feedback">Open Email</a>
   </div>
   <p id="feedback-copy-status" class="copy-status" role="status" aria-live="polite"></p>
 </form>
