@@ -15,6 +15,13 @@ for editing. This lets playback follow the section timeline without discarding
 your editing selection. Stop playback to return the canvas to the selected
 visual.
 
+## Grab another frame from the source recording
+
+Need another visual from the original recording? Open the Source Video, select
+the section you want to update, pause on the moment you want, and choose **Add
+Current Frame to Section**. Studio adds the captured frame as another visual
+while preserving the section's existing narration and unrelated visual timing.
+
 ## Reorder visuals
 
 Select a visual, then choose **Move Visual Earlier** or **Move Visual Later**.

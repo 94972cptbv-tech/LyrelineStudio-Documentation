@@ -41,8 +41,10 @@ Apple Speech, or OpenAI narration, and generate or attach narration as needed. S
 
 Open the Section Editor to select and reorder visuals, refine visual timing,
 attach narration cues, add pauses, continue numbered callouts across visuals,
-and adjust highlight appearance. Use Section Preview to review how narration,
-visuals, and annotations work together. See [Section Editor](section-editor.md).
+and adjust highlight appearance. To add another visual from the Source Video,
+pause on the moment you want and choose **Add Current Frame to Section**. Use
+Section Preview to review how narration, visuals, and annotations work together.
+See [Section Editor](section-editor.md).
 
 ## 7. Publish
 
