@@ -33,6 +33,7 @@ synchronization.
 Supported round trips preserve:
 
 - section order and instructional text;
+- multilingual Unicode authored text;
 - images and presentation edits;
 - numbered callouts and optional labels;
 - the relationship between a numbered callout and its instruction;
@@ -41,6 +42,16 @@ Supported round trips preserve:
 
 For callout creation and editing instructions, see
 [Numbered Callouts in the Lyreline documentation](https://94972cptbv-tech.github.io/Lyreline-Documentation/numbered-callouts/).
+
+### Multilingual authored text
+
+Multilingual Procedure text is preserved across the supported Lyreline → Studio
+handoff. This includes Unicode text used in titles, instructions, and other
+authored fields. Lyreline 1.3.2 validation includes Latin text with diacritics,
+Japanese, Chinese, and Arabic.
+
+Narration language and voice availability remain subject to the narration
+provider and voices selected in Studio.
 
 ## Reviewing source updates in Studio
 
